@@ -1,0 +1,202 @@
+<style>
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #df7c8b;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('https://images.unsplash.com/photo-1612293025896-7200cc87e540?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-image: url(https://images.unsplash.com/photo-1612293025896-7200cc87e540?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    color: rgb(14, 8, 8);
+    padding: 20px;
+    border-bottom: 1px solid #eeb5b0;
+    text-align: center;
+}
+
+header img {
+    max-width: 100%; 
+    height: auto;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+    margin: 0;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: wavy;
+    color: #090808;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff9aa2;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 20px;
+}
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 20px; 
+}
+
+.product {
+    border: 1px solid #ffd1dc;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    background-image: url('https://images.unsplash.com/photo-1612476477553-ec93b571bfe4?q=80&w=2570&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    width: calc(40% - 20px); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #ff9aa2;
+}
+
+.product:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.product img {
+    width: 90%; 
+    height: auto; 
+    max-height: 400px; 
+    object-fit: cover; 
+}
+.product p {
+    background-image: url('https://i.pinimg.com/564x/ae/56/b2/ae56b2b154dc4ccaa1a5aed62f1e5b06.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    padding: 15px; 
+    border-radius: 10px; 
+    color: #0b0909; 
+    font-size: 1.1em; 
+}
+
+
+
+.product h3 {
+    font-family: 'Dancing Script'
+    font-size: 1.5em;
+    color: #040202;
+    margin: 10px 0;
+}
+
+.product p {
+    font-size: 1.1em;
+    color: #090808;
+    margin: 10px 0;
+}
+
+.button {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    margin: 10px auto;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover {
+    background-color: #ff4d4d;
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #ff9aa2;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+#inicio, #contacto, #nosotros, #welcome {
+    text-align: justify; 
+    max-width: 1000px; 
+    margin: 0 85px auto; 
+    padding: 20px;
+}
+
+#inicio p, #contacto p, #nosotros p, #welcome p {
+    text-align: justify; 
+    text-justify: inter-word; 
+}
+
+#inicio h2, #inicio h3, #inicio ul,
+#contacto h2, #contacto h3, #contacto ul,
+#nosotros h2, #nosotros h3, #nosotros ul,
+#welcome h2, #welcome h3, #welcome ul {
+    margin-bottom: 20px;
+}
+#contacto p {
+    text-align: justify 
+    text-justify: inter-word
+}
+#inicio h2, #inicio h3,
+#contacto h2, #contacto h3,
+#nosotros h2, #nosotros h3,
+#welcome h2, #welcome h3 {
+    text-align: center; 
+    margin-bottom: 20px;
+}
+</style>
